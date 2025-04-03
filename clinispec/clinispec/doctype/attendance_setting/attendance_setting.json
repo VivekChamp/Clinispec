@@ -1,0 +1,46 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-03 20:27:50.795534",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "make_attendance_present_buffer_hour",
+  "make_attendance_half_day_buffer_hour"
+ ],
+ "fields": [
+  {
+   "fieldname": "make_attendance_present_buffer_hour",
+   "fieldtype": "Int",
+   "label": "Make Attendance Present Buffer Hour"
+  },
+  {
+   "fieldname": "make_attendance_half_day_buffer_hour",
+   "fieldtype": "Int",
+   "label": "Make Attendance Half Day Buffer Hour"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-04-03 20:37:46.688264",
+ "modified_by": "Administrator",
+ "module": "Clinispec",
+ "name": "Attendance Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "HR Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
